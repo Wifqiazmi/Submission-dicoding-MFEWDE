@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Restoku adalah sebuah restoran yang menyajikan berbagai macam hidangan lezat dengan suasana yang nyaman dan menyenangkan">
+  <link rel="apple-touch-icon" href="/icons/icon-192x192.png">
+  <link rel="manifest" href="app.webmanifest">
+  <link rel="icon" href="./favicon.png">
+
+  <title>Restoku</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <a href="#mainContent" class="skip-link">Lewati ke Konten</a>
+  <div class="header__inner">
+    <img src="images/heros/header-Logo.jpg" alt="restaurant">
+  </div>
+  <a id="hamburger" class="header__menu" href="#" aria-label="Menu">☰</a>
+  <nav id="drawer" class="nav">
+    <ul class="nav__list">
+      <li class="nav__item"><a href="#/list-restaurant">Home</a></li>
+      <li class="nav__item"><a href="#/like">Favorite</a></li>
+      <li class="nav__item"><a href="https://www.linkedin.com/in/wifqiazmi/">About us</a></li>
+    </ul>
+  </nav>
+  <div class="hero">
+    <div class="hero__inner">
+      <h1 class="hero__title">Selamat Datang di RestoKu</h1>
+      <p class="hero__tagline">Temukan berbagai macam hidangan lezat di restoran kami</p>
+    </div>
+  </div>
+  
+  <main id="mainContent" tabindex="-1">
+    <article class="headline">
+      <picture class="headline__figure">
+        <source media="(max-width: 600px)" srcset="./images/heros/hero-image_2-small.jpg" class="hero-image">
+        <img src='images/heros/hero-image_2.jpg' alt="hero image" class="hero-image">
+        <figcaption>Menu RestoKu, Beragam Pilihan Hidangan Lezat</figcaption>
+     </picture>
+      <div class="headline__content">
+        <h2 class="headline__title">Apa Itu RestoKu</h2>
+        <p class="headline__description">
+          RestoKu adalah restoran yang menyajikan berbagai macam hidangan lezat dengan suasana yang nyaman dan
+          menyenangkan. Kami menggunakan bahan-bahan segar dan berkualitas untuk memberikan pengalaman kuliner terbaik
+          bagi pelanggan kami. Dari hidangan tradisional hingga makanan modern, RestoKu menyediakan pilihan menu yang
+          beragam untuk memuaskan selera dan kebutuhan kuliner Anda.
+        </p>
+        <button class="headline__button">Selengkapnya</button>
+      </div>
+    </article>
+    <div class="latest">
+      <h1 class="latest__label">Pilihan menu RestoKu</h1>
+      <section id="restaurant-list" tabindex="0"></section>
+    </div>
+  </main>
+  <footer class="footer">
+    <p><strong>RestoKu &copy; </strong> 2024. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
