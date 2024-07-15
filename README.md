@@ -5,11 +5,11 @@
 
 Dicoding Submission Menjadi Front-End Web Developer Expert
 
-  [![Tech](https://skillicons.dev/icons?i=,html,css,js,webpack)](https://skillicons.dev)
+  [![Tech](https://skillicons.dev/icons?i=,html,css,js,webpack,babel,git,npm,workers)](https://skillicons.dev)
 
 
 ## Website Preview
-![main](Screnshoot/Kelasku.gif)
+![main](Screnshoot/Restoku.gif)
 
 
 ## Submission info
